@@ -2,6 +2,7 @@ body {
     background-color: #DEF5E5;
     margin: 0;
     text-align: center;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
 h1 {
@@ -41,6 +42,7 @@ hr {
     width: 60%;
     border-color: #11999E;
     margin: 50px auto 50px auto;
+    opacity: 100%;
 }
 
 hr:after {
@@ -112,9 +114,10 @@ hr:after {
     align-items: center;
     display: flex;
     height: 80px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
     width: 100%;
     font-size: 20px;
+    font-weight: 500;
 }
 
 .Logo {
@@ -175,7 +178,7 @@ hr:after {
 
 .top-container .Text{
     color: #fff;
-    padding: 136px 792px 0px 0px;
+    padding: 155px 792px 0px 0px;
     position: static;
 }
 
@@ -186,10 +189,13 @@ hr:after {
 
 .middle-container {
     width: auto;
-    margin: 455px 0px 50px 0px;
+    margin: 480px 0px 50px 0px;
     position: static;
 }
 
+.middle-container div img {
+    padding-top: 10px;
+}
 
 #About {
     margin: auto;
@@ -232,7 +238,6 @@ hr:after {
     -moz-border-radius: 15;
     border-radius: 15px;
     text-shadow: 1px 1px 1px #454445;
-    font-family: Arial;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
